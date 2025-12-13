@@ -10,6 +10,11 @@ from history_manager import HistoryManager
 # Load environment variables
 load_dotenv()
 
+# --- SENSITIVE DATA HANDLING ---
+# Streamlit Cloud: Load secrets into os.environ for compatibility with other modules
+if "GROQ_API_KEY" in st.secrets:
+    os.environ["GROQ_API_KEY"] = st.secrets["GROQ_API_KEY"]
+
 st.set_page_config(page_title="RiskWise AI", page_icon="🌍", layout="wide", initial_sidebar_state="collapsed")
 
 # --- GLOBAL CUSTOM CSS CHECK: INJECTING FIRST ---
