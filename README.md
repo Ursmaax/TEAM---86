@@ -1,8 +1,18 @@
 
 # 🌍 RiskWise AI
 
+
 [![Live Demo](https://img.shields.io/badge/🟢%20Live%20Demo-Click%20Here-success?style=for-the-badge&logo=streamlit)](https://team---86-rnw5sqr6qkcfxcgpkdsfms.streamlit.app)
 [![Tech Stack](https://img.shields.io/badge/Built%20With-Python%20|%20Groq%20|%20Streamlit-blue?style=for-the-badge)](https://groq.com)
+
+## 🚀 Run the Application Online
+
+You can run the full **RiskWise Intelligence Platform** directly in your browser — no installation needed.
+
+👉 **Try it on Streamlit Cloud:**
+[https://team---86-rnw5sqr6qkcfxcgpkdsfms.streamlit.app](https://team---86-rnw5sqr6qkcfxcgpkdsfms.streamlit.app)
+
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white) ![Cloud](https://img.shields.io/badge/Cloud-Deployed-success?style=for-the-badge)
 
 ---
 
