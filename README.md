@@ -13,15 +13,13 @@ This project aims to **predict risky services early** and **explain the risk in 
 
 ## 🌍 Why This Problem Matters
 
-Many real-world outages happen because a **single external service fails**.  
-Cloud platforms, APIs, payment systems, and networks have all caused major disruptions across applications.
+Many real-world outages happen because a single external service fails.
 
-- ☁️ [Cloud service outage](link)  
-- 🌐 [API / CDN failure](link)  
-- 💳 [Payment system outage](link)  
-- 📱 [Platform outage](link)  
-- 🛰️ [Network failure](link)  
+- ☁️ Cloud service outages  
+- 🌐 API / CDN failures  
+- 💳 Payment system disruptions  
+- 📱 Platform outages  
+- 🛰️ Network failures  
 
-👉 **Common issue:** one service failure → system outage → user impact.
+Our project focuses on predicting such risks before they impact users.
 
-Our project focuses on **predicting such risks before they impact users**.
