@@ -15,23 +15,7 @@ You can run the full **RiskWise Intelligence Platform** directly in your browser
 
 ---
 
-## 🚨 Problem Statement
-
-**Global supply chains are breaking, and companies are flying blind.**
-
-Today, logistics teams react to problems *after* they happen.
-*   A ship gets stuck in port? **They find out 3 days later.**
-*   A new tariff is announced? **They miss the news.**
-*   A storm blocks a route? **Their goods are already stuck.**
-
-
-This delay costs companies millions of dollars and causes major shortages (like chips or medicines) around the world. There is no simple tool that predicts these risks *before* they become disasters.
-
-![Infographic](assets/riskwise_infographic.png)
-
----
-
-## 💡 Our Solution: RiskWise AI
+## � Our Solution: RiskWise AI
 
 **RiskWise is an intelligent "Command Center" for supply chains.**
 It uses AI agents to watch everything—politics, weather, trade laws, and shipping routes—24/7.
@@ -43,7 +27,22 @@ Instead of just showing you a map, it acts like a team of expert analysts:
 
 ---
 
-## 📸 Platform Preview
+## �🚨 Problem Statement
+
+**Global supply chains are breaking, and companies are flying blind.**
+
+Today, logistics teams react to problems *after* they happen.
+*   A ship gets stuck in port? **They find out 3 days later.**
+*   A new tariff is announced? **They miss the news.**
+*   A storm blocks a route? **Their goods are already stuck.**
+
+This delay costs companies millions of dollars and causes major shortages (like chips or medicines) around the world. There is no simple tool that predicts these risks *before* they become disasters.
+
+![Infographic](assets/riskwise_infographic.png)
+
+---
+
+##  Platform Preview
 
 **RiskWise provides a complete "Command Center" view of your supply chain.**
 
@@ -111,7 +110,6 @@ If you want to test the code on your own machine:
     ```bash
     streamlit run riskwise/app.py
     ```
-
 
 ---
 
