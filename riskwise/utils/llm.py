@@ -4,7 +4,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+
 # Initialize Groq client
+# Forced Redeploy Trigger
 def get_groq_client(api_key=None):
     # Ensure no proxies are passed, strictly api_key
     final_key = api_key if api_key else os.getenv("GROQ_API_KEY")
