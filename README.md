@@ -1,25 +1,21 @@
 ## 🚨 Problem Statement
 
-Modern applications depend on many external services such as cloud servers, OTP systems, payment gateways, APIs, and hardware suppliers.
+Global supply chains are very complex.
 
-If even **one** of these services fails, the entire application can stop working — even when the main system itself is healthy.
+Companies depend on many things such as suppliers, shipping routes, ports, and government rules.  
+Because of this, problems can happen at any time.
 
-Currently, companies have **no simple way** to predict which service is becoming risky *before* a failure happens.  
-Most issues are discovered only **after users are affected**, leading to outages, customer frustration, and business loss.
+Common problems include:
+- Shipping delays
+- Port congestion
+- Political conflicts
+- Tariff and trade rule changes
+- Logistics failures
 
-This project aims to **predict risky services early** and **explain the risk in simple, human-readable language**.
+Most companies know about these problems **only after the delay happens**.  
+By that time, projects are already affected and money is lost.
 
----
+There is no simple system that can watch these risks continuously and warn teams early.
 
-## 🌍 Why This Problem Matters
-
-Many real-world outages happen because a single external service fails.
-
-- ☁️ Cloud service outages  
-- 🌐 API / CDN failures  
-- 💳 Payment system disruptions  
-- 📱 Platform outages  
-- 🛰️ Network failures  
-
-Our project focuses on predicting such risks before they impact users.
+The goal of **RiskWise** is to use AI to detect supply chain risks early and explain them in simple language, so teams can take action before delays happen.
 
