@@ -1,0 +1,66 @@
+[
+  {
+    "timestamp": "2025-12-13 19:57:43",
+    "product": "IPAD",
+    "origin": "USA",
+    "destination": "CHINA",
+    "risk_score": 8,
+    "report_preview": "Executive Summary:\n- Overall Risk Level: Medium\n\nKey Reasons:\n- Schedule: The project schedule is ex..."
+  },
+  {
+    "timestamp": "2025-12-13 19:51:50",
+    "product": "APPLE SMARTPHONES",
+    "origin": "USA",
+    "destination": "INDIA",
+    "risk_score": 12,
+    "report_preview": "Executive Summary:\n- Overall Risk Level: High\n\nKey Reasons:\n- Schedule: The project is expected to b..."
+  },
+  {
+    "timestamp": "2025-12-13 18:47:23",
+    "product": "Semiconductors",
+    "origin": "Taiwan",
+    "destination": "Germany",
+    "risk_score": 8,
+    "report_preview": "Executive Summary:\n- Overall Risk Level: Low\n\nKey Reasons:\n- Schedule: The schedule risk is low with..."
+  },
+  {
+    "timestamp": "2025-12-13 18:34:55",
+    "product": "Semiconductors",
+    "origin": "Taiwan",
+    "destination": "Germany",
+    "risk_score": 8,
+    "report_preview": "Executive Summary:\n- Overall Risk Level: Low\n\nKey Reasons:\n- Schedule: The schedule risk is low with..."
+  },
+  {
+    "timestamp": "2025-12-13 18:25:12",
+    "product": "ELECTRONICS",
+    "origin": "USA",
+    "destination": "INDIA",
+    "risk_score": 10,
+    "report_preview": "Executive Summary:\n- Overall Risk Level: Medium\n\nKey Reasons:\n- Schedule: There is a delay of 7 days..."
+  },
+  {
+    "timestamp": "2025-12-13 18:24:40",
+    "product": "ELECTRONICS",
+    "origin": "USA",
+    "destination": "INDIA",
+    "risk_score": 10,
+    "report_preview": "Executive Summary:\n- Overall Risk Level: Medium\n\nKey Reasons:\n- Schedule: There is a delay of 7 days..."
+  },
+  {
+    "timestamp": "2025-12-13 18:23:46",
+    "product": "ELECTRONICS",
+    "origin": "USA",
+    "destination": "INDIA",
+    "risk_score": 14,
+    "report_preview": "Executive Summary:\n- Overall Risk Level: Medium\n\nKey Reasons:\n- Schedule: The project schedule is at..."
+  },
+  {
+    "timestamp": "2025-12-13 18:19:54",
+    "product": "Semiconductors",
+    "origin": "Taiwan",
+    "destination": "Germany",
+    "risk_score": 12,
+    "report_preview": "Executive Summary:\n- Overall Risk Level: Low\n\nKey Reasons:\n- Schedule: The schedule risk is low with..."
+  }
+]
