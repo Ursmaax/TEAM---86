@@ -4,30 +4,18 @@
 [![Live Demo](https://img.shields.io/badge/🟢%20Live%20Demo-Click%20Here-success?style=for-the-badge&logo=streamlit)](https://team---86-rnw5sqr6qkcfxcgpkdsfms.streamlit.app)
 [![Tech Stack](https://img.shields.io/badge/Built%20With-Python%20|%20Groq%20|%20Streamlit-blue?style=for-the-badge)](https://groq.com)
 
-## 🚀 Run the Application Online
-
-You can run the full **RiskWise Intelligence Platform** directly in your browser — no installation needed.
-
-👉 **Try it on Streamlit Cloud:**
-[https://team---86-rnw5sqr6qkcfxcgpkdsfms.streamlit.app](https://team---86-rnw5sqr6qkcfxcgpkdsfms.streamlit.app)
-
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white) ![Cloud](https://img.shields.io/badge/Cloud-Deployed-success?style=for-the-badge)
-
----
-
-## � Our Solution: RiskWise AI
+## � Project Overview
 
 **RiskWise is an intelligent "Command Center" for supply chains.**
-It uses AI agents to watch everything—politics, weather, trade laws, and shipping routes—24/7.
 
-Instead of just showing you a map, it acts like a team of expert analysts:
+It uses AI agents to watch everything—politics, weather, trade laws, and shipping routes—24/7. Instead of just showing you a map, it acts like a team of expert analysts:
 1.  **Predicts Delays** before they happen.
 2.  **Reads News & Laws** instantly to find risks.
 3.  **Scores Every Shipment** so you know exactly which ones are safe.
 
 ---
 
-## �🚨 Problem Statement
+## 🚨 Problem Statement
 
 **Global supply chains are breaking, and companies are flying blind.**
 
@@ -42,7 +30,27 @@ This delay costs companies millions of dollars and causes major shortages (like 
 
 ---
 
-##  Platform Preview
+## 💡 Our Solution: RiskWise AI
+
+RiskWise deploys a swarm of autonomous AI agents to predict, analyze, and mitigate global logistics disruptions before they happen. By synthesizing real-time geopolitical signals, trade data, and logistics vectors, it gives unmatched foresight into the future of your shipments.
+
+---
+
+## 🛠️ How It Works
+
+We built a **Multi-Agent System** where different AIs work together:
+
+1.  **You Enter a Route**: e.g., "Semiconductors from Taiwan to Germany".
+2.  **The Agents Wake Up**:
+    *   🏛️ **Political Agent**: Checks for conflicts or sanctions.
+    *   🚢 **Logistics Agent**: Checks for port jams or bad weather.
+    *   📜 **Trade Agent**: Checks for new taxes or rules.
+3.  **The System Thinks**: It combines all this data into one simple **Risk Score (0-20)**.
+4.  **You Get Answers**: A full report explaining exactly *what* might go wrong and *why*.
+
+---
+
+## 📸 Platform Preview
 
 **RiskWise provides a complete "Command Center" view of your supply chain.**
 
@@ -65,20 +73,6 @@ Breakdowns from the Political, Logistics, and Trade agents alongside quantitativ
 | :---: | :---: |
 | ![Agents](assets/3_intelligence_grid_1.png) | ![Scoring](assets/6_risk_scoring.png) |
 | ![Agents2](assets/4_intelligence_grid_2.png) | **Executive PDF Reports** <br> ![PDF](assets/7_pdf_report.png) |
-
----
-
-## 🛠️ How It Works
-
-We built a **Multi-Agent System** where different AIs work together:
-
-1.  **You Enter a Route**: e.g., "Semiconductors from Taiwan to Germany".
-2.  **The Agents Wake Up**:
-    *   🏛️ **Political Agent**: Checks for conflicts or sanctions.
-    *   🚢 **Logistics Agent**: Checks for port jams or bad weather.
-    *   📜 **Trade Agent**: Checks for new taxes or rules.
-3.  **The System Thinks**: It combines all this data into one simple **Risk Score (0-20)**.
-4.  **You Get Answers**: A full report explaining exactly *what* might go wrong and *why*.
 
 ---
 
@@ -138,5 +132,7 @@ Supply chain risks change in seconds. Groq's LPU allows our agents to read thous
 *   **[Member Name]** - Developer
 *   **[Member Name]** - Researcher
 *   **[Member Name]** - Designer
+
+---
 
 *Submitted for JNTUGV GenAI Hackathon 2025.*
