@@ -24,7 +24,10 @@ Today, logistics teams react to problems *after* they happen.
 *   A new tariff is announced? **They miss the news.**
 *   A storm blocks a route? **Their goods are already stuck.**
 
+
 This delay costs companies millions of dollars and causes major shortages (like chips or medicines) around the world. There is no simple tool that predicts these risks *before* they become disasters.
+
+![Infographic](assets/riskwise_infographic.png)
 
 ---
 
@@ -108,6 +111,26 @@ If you want to test the code on your own machine:
     ```bash
     streamlit run riskwise/app.py
     ```
+
+
+---
+
+## ❓ Frequently Asked Questions (FAQ)
+
+**1. How is this different from existing tools?**
+Most tools track shipments *physically* (GPS). RiskWise tracks *volatility* (Politics, Laws, Weather). We tell you "Why" a delay will happen before the ship even leaves.
+
+**2. What data sources does it use?**
+It aggregates real-time data from news outlets, maritime weather stations, government trade registries, and port authority APIs, processing them via the Groq LPU.
+
+**3. Can it work for any route?**
+Yes! We support global coordinates (Asia, Europe, Americas, Middle East). Just enter any Origin and Destination city.
+
+**4. What is the "Risk Score"?**
+It's a composite metric (0-100). 0-20 is Safe, 21-50 is Moderate, and 75+ is Critical. It combines scores from Political, Logistics, and Trade agents.
+
+**5. Why use Groq?**
+Supply chain risks change in seconds. Groq's LPU allows our agents to read thousands of data points and reason in milliseconds, providing real-time intelligence.
 
 ---
 
