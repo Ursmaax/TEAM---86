@@ -162,11 +162,25 @@ def main():
                 elif overall_status == "med": status_html = '<span class="status-badge status-med">MODERATE RISK</span>'
                 else: status_html = '<span class="status-badge status-low">OPERATIONAL</span>'
 
+                # Calculate Score Percentage
+                # 4 Agents, Max Score 5 each = 20 total
+                total_risk_score = sum(results.get("scores", {}).values())
+                max_score = 20
+                risk_percentage = min(int((total_risk_score / max_score) * 100), 100)
+                
+                # Dynamic Color for Gauge
+                gauge_color = "#34D399" # Low
+                if risk_percentage > 40: gauge_color = "#FBBF24" # Med
+                if risk_percentage > 75: gauge_color = "#F87171" # High
+
                 # --- SUMMARY CARD ---
                 st.markdown(f"""
-                <div class="premium-card" style="text-align: center; border-top: 4px solid {'#F87171' if overall_status=='high' else '#FBBF24' if overall_status=='med' else '#34D399'};">
+                <div class="premium-card" style="text-align: center; border-top: 4px solid {gauge_color};">
                     {status_html}
-                    <h3>Assessment Complete</h3>
+                    <h2 style="font-size: 3rem; margin: 10px 0; color: {gauge_color};">{risk_percentage}%</h2>
+                    <p style="text-transform: uppercase; letter-spacing: 1px; font-size: 0.9rem; opacity: 0.8;">Cumulative Supply Chain Risk Probability</p>
+                    <hr style="border-color: rgba(255,255,255,0.1); margin: 20px 0;">
+                    <h3>Executive Summary</h3>
                     <div style="text-align: left; margin-top: 20px; color: var(--text-secondary); white-space: pre-line;">
                         {results['final_report']}
                     </div>
