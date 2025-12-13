@@ -14,6 +14,33 @@ You can run the full **RiskWise Intelligence Platform** directly in your browser
 
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white) ![Cloud](https://img.shields.io/badge/Cloud-Deployed-success?style=for-the-badge)
 
+
+---
+
+## 📸 Platform Preview
+
+**RiskWise provides a complete "Command Center" view of your supply chain.**
+
+**1. Define Assessment Parameters**
+Enter critical shipment details (Origin, Destination, Mode) to wake up the agent swarm.
+![Input](assets/1_input_parameters.png)
+
+**2. Real-Time Risk Analysis**
+The system synthesizes data into a unified risk report.
+![Report](assets/2_report_header.png)
+
+**3. Geo-Spatial Surveillance**
+Visualizing the physical route vector and potential choke points.
+![Map](assets/5_geospatial_map.png)
+
+**4. Detailed Intelligence & Scoring**
+Breakdowns from the Political, Logistics, and Trade agents alongside quantitative scoring.
+
+| Operatonal Agents | Risk Quantification |
+| :---: | :---: |
+| ![Agents](assets/3_intelligence_grid_1.png) | ![Scoring](assets/6_risk_scoring.png) |
+| ![Agents2](assets/4_intelligence_grid_2.png) | **Executive PDF Reports** <br> ![PDF](assets/7_pdf_report.png) |
+
 ---
 
 ## 🚨 Problem Statement
