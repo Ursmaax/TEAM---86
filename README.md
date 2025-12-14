@@ -74,9 +74,8 @@ This short video demonstrates the complete workflow of the RiskWise AI system.
 It shows how a user enters shipment details, how the AI agents analyze risks,
 and how the final risk report is generated.
 
-Click the image below to watch the demo:
 
-[![Watch the demo video](https://img.youtube.com/vi/etLvSZD4GKo/0.jpg)](https://youtu.be/etLvSZD4GKo)
+[![Watch Demo Video](https://img.shields.io/badge/▶️_Watch_Demo_Video-Click_Here-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/etLvSZD4GKo)
 
 Note: The demo uses AI-generated narration and visuals for explanation.
 
