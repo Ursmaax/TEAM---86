@@ -148,9 +148,9 @@ Supply chain risks change in seconds. Groq's LPU allows our agents to read thous
 
 ## 👥 Team 86
 
-*   **[Your Name]** - Project Lead
-*   **[Member Name]** - Developer
-*   **[Member Name]** - Researcher
-*   **[Member Name]** - Designer
+*   **[Umamahesh]** - Project Lead
+*   **[Karthik Manikanta]**
+*   **[Jaya Vardhini]**
+*   **[Harshini]**
 
 *Submitted for JNTUGV GenAI Hackathon 2025.*
