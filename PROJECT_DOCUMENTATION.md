@@ -67,10 +67,10 @@ Streamlit Cloud integrates directly with our GitHub repository. This ensures Con
 
 ## 11. Team Information
 **Team 86**
-*   Project Lead
-*   Developer
-*   Researcher
-*   Designer
+*   Umamahesh
+*   Karthik Manikanta
+*   Jaya Vardhini
+*   Harshini
 
 ---
 *Document Date: December 14, 2025*
